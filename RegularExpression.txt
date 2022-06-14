@@ -1,0 +1,18 @@
+? match 0 or 1 number character
+* match 0 or multiple character
+^  is the  location where begin match 
++  match which ahead of it multiple .at least once 
+[] is a overall which in internal
+$  is the location where end match
+[...] match all this character ...(by single character not a whole string)
+[^...] match all character except ...
+[A-Z]  match all uppercase letter
+[a-z]  match all lowercase letter
+.    match all this character except \n\r ,equal [^\n\r]
+[\s\S] match all .\s is match all  whitespace include \n\r .\S match nonwhitespace,not include \n\r
+\w  match A-Z a-z 0-9 and _ ,equal [A-Za-z0-9_]
+\  escape character ,can add $ () * + . [ ? \ ^ { |
+{n} match which ahead of it n times
+{n,} match which ahead of it at least n times
+{n,m} match which ahead of it at least n times ,at most m times 
+
