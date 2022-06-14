@@ -14,5 +14,7 @@ $  is the location where end match
 \  escape character ,can add $ () * + . [ ? \ ^ { |
 {n} match which ahead of it n times
 {n,} match which ahead of it at least n times
-{n,m} match which ahead of it at least n times ,at most m times 
+{n,m} match which ahead of it at least n times ,at most m times
+<.*> will match all in<>,match all character as much as possible
+<.*?> will match the smallest
 
